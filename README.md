@@ -99,7 +99,7 @@ This project was developed at **KJ Somaiya School of Engineering** to demonstrat
 - **NIST Alignment:** Practical mapping of complex tech stacks to theoretical service models.
 
 **Authors:** 
-Swarup Valvi 16010423103, Tanay Sawant 16010423104, Manthan Rondhe 16010424808.
+Vinit Sanklecha ,Miheer Shinde, Bhavya Shah
 
 ---
 
