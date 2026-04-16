@@ -128,14 +128,20 @@ const App = () => {
       {/* Topbar */}
       <nav className="niq-topbar">
         <div className="niq-logo">
-          <div className="niq-logo-mark">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#000" strokeWidth="2.5">
-              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
-              <polyline points="9 22 9 12 15 12 15 22"/>
+          <div className="niq-logo-mark" style={{ display: 'flex', alignItems: 'center' }}>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="url(#optixGrad)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+              <path d="M12 14.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+              <defs>
+                <linearGradient id="optixGrad" x1="0" y1="0" x2="24" y2="24">
+                  <stop stopColor="#3b82f6" />
+                  <stop offset="1" stopColor="#8b5cf6" />
+                </linearGradient>
+              </defs>
             </svg>
           </div>
           <div>
-            <div className="niq-logo-text">NimbusIQ</div>
+            <div className="niq-logo-text">CloudOptix</div>
             <div className="niq-logo-sub">Cloud Intelligence</div>
           </div>
         </div>

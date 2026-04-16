@@ -151,7 +151,7 @@ const ConfigurationPage = ({ inputs, handleChange, runComparison, setPage, isLoa
         </div>
 
         <div className="niq-sub-card" style={{ background: 'var(--accent-dim)', borderColor: 'var(--accent-border)' }}>
-          <div className="niq-sub-title">About NimbusIQ</div>
+          <div className="niq-sub-title">About CloudOptix</div>
           <p style={{ fontSize: '10px', color: 'var(--text-2)', lineHeight: 1.7 }}>
             Multi-cloud cost intelligence for AWS, Azure, and GCP. 
             Pricing models include real-time Azure Retail API data with intelligent fallback computation.
