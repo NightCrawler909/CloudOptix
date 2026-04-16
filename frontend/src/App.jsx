@@ -179,6 +179,10 @@ const App = () => {
             latencies={latencies} />
         )}
       </main>
+
+      <footer style={{ textAlign: 'center', padding: '20px', fontSize: '12px', color: 'var(--text-3)', borderTop: '1px solid var(--border-color)' }}>
+        Made with ❤️ by Aayush Solanke, Aayush Kadam, and Atharva Rathi
+      </footer>
     </div>
   );
 };
